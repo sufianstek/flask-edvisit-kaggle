@@ -4,6 +4,7 @@
 This repository is part of of emergency medicine research which provides a Flask-based REST API server for forecasting Emergency Department (ED) visits. The API uses a machine learning model (Keras) and weather data from the Open-Meteo API to generate 28-day forecasts (14 days prior and 14 days ahead of current date), incorporating features such as temperature, humidity, holidays, and day-of-week effects.
 
 Steps to create LSTM model:
+
 https://www.kaggle.com/code/sufiansafaai/emergency-department-visit-prediction-using-lstm
 
 ## Features
