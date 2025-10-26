@@ -15,8 +15,7 @@ from retry_requests import retry
 
 app = Flask(__name__)
 
-model_path = 'model_v2/' #development
-#model_path = '/home/automata-ai/flask-edvisit/model_v2/' #production
+model_path = 'model/'
 
 # --- Load the Saved Model, Preprocessor, and Config Info ---
 model = load_model(f'{model_path}forecast_model.keras', compile=False)

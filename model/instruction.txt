@@ -1,0 +1,5 @@
+put model files in this folder
+
+forecast_model.keras 
+forecast_model_preprocessor.pkl
+forecast_model_model_info.pkl
